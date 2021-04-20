@@ -1,0 +1,270 @@
+@media(max-width:1200px){
+   .navbar__list{
+       margin: 0;
+       flex-direction: column;
+   } 
+   .navbar__right-link{
+       margin: auto;
+   }
+
+   .header__box{
+     flex-direction: column;
+     align-items: center;
+   }
+   .box__link{
+     margin-bottom: 15px;
+   }
+
+   .intro__img{
+     width: 100%;
+     margin-bottom: 10px;
+   }
+   .box__img{
+     width: 100%;
+     box-shadow: 5px 5px 5px 5px rgb(158, 123, 123);
+   }
+
+   .centre__div{
+     position: static;
+     flex-direction: column;
+     margin-bottom: 0;
+    
+   }
+
+   .img__last{
+     position: static;
+     width: 100%;
+     box-shadow: 0px 5px 5px 10px rgb(138, 127, 127);
+     margin-bottom: 15px;
+   }
+
+   .centre__section-img{
+     width: 100%;
+   }
+
+   .tools__first-link{
+     padding-bottom: 400px;
+   }
+
+   .centre__section{
+     margin-bottom: 20px;
+   }
+
+   .dropdown__window{
+     left: 230px;
+   }
+}
+@media(max-width:992px){
+  .next__tools{
+    flex-wrap: wrap;
+  }
+
+  .tools__first{
+    width: 50%;
+  }
+
+  .tools__first-link:nth-of-type(1){
+    padding-bottom:0;
+  }
+  .tools__first-link:nth-of-type(2){
+    padding-bottom: 0;
+  }
+  .tools__first:nth-of-type(3){
+    margin-bottom: 400px;
+    margin-inline: auto;
+  }
+  .tools__first-img{
+    box-shadow: 5px 3px 4px rgb(134, 112, 112);
+  }
+
+  .section__texts{
+    grid-template-columns: 1fr;
+    margin-bottom: 150px;
+
+  }
+
+  .section__last{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section__texts-tools{
+    width: 100%;
+  }
+
+  .last__img{
+    width: 100%;
+    height: max-content;
+    margin-top: 0;
+  }
+
+  .last__tools-img{
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .last__tools{
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .last__tools-link{
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .texts-tools__link{
+    margin: auto;
+  }
+  
+  .parametrs__title3{
+    margin: auto;
+  }
+
+  .parametrs__text{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .dropdown__window{
+    left: 120px;
+  }
+}
+@media(max-width:768px){
+  .tools__first{
+    width: 100%;
+    margin: auto;
+  }
+
+  .tools__first-img{
+    animation: animate 3s ease 3;
+  }
+
+  .centre__section{
+    width: 100%;
+
+  }
+
+  .centre__section-text{
+   text-align: center;
+   margin-left: 10px;
+  }
+
+  .centre__section-title{
+    font-size: 26px;
+    margin-left: 15px;
+    width: max-content;
+    margin-bottom: 10px;
+  }
+
+  .centre__section-text2{
+    margin-left: 15px;
+  }
+
+  .centre__section-link{
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .main__details-tools{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details-tools__right-parametrs{
+    margin-bottom: 15px;
+  }
+
+  .tools__link{
+    margin: auto;
+  }
+
+  .footer__info{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .dropdown__window{
+    left: 30px;
+  }
+}
+
+@media(max-width:576px){
+  .last__lists{
+    flex-direction: column;
+  }
+
+  .list__unlist:nth-of-type(2){
+    padding: 0;
+  }
+
+  .footer{
+    height: 100%;
+  }
+
+  .centre__section-title{
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 0;
+  }
+
+  .centre__section-text2{
+    width:100%;
+    margin-left: 0;
+    font-size: 16px;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .last__lists::after{
+    content: "";
+    width: 0;
+    height: 0;
+  }
+
+  .centre__section-text2::after{
+    display: none;
+  }
+
+  .box__right-title{
+    font-size: 26px;
+  }
+
+  .box__link{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .last__tools-img{
+    box-shadow: 3px 3px 2px rgb(141, 126, 126);
+  }
+
+  .last__1{
+    margin: auto;
+    width: 100%;
+  }
+
+  .dropdown__window{
+    left: 0;
+    top: 60px;
+    width: 100px;
+    height: 150px;
+    margin-left: 0;
+  }
+
+}
+
+@media(max-width:377px){
+  .dropdown__window{
+    right: 0;
+    top: 70px;
+    width: 100px;
+    height: 150px;
+    
+  }
+
+    .tools__first-img{
+      width: 100%;
+    }
+}

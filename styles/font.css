@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Dinpro';
+    src: url(../fonts/dinpro/DINPro-Regular_13937.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Dinpro';
+    src: url(../fonts/dinpro/DINPro\ Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Dinpro';
+    src: url(../fonts/dinpro/DINPro\ Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Font-awesome';
+    src: url(../fonts/font-awesome/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Font-awesome';
+    src: url(../fonts/font-awesome/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font-awesome';
+    src: url(../fonts/font-awesome/fa-solid-900.woff2);
+    font-weight: 900;
+}
+
+.fa{
+    display: inline-block;
+    font-family: 'Font-awesome';
+    line-height: 1;
+    font-style: normal;
+}
